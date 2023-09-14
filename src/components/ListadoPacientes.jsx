@@ -1,6 +1,6 @@
 import PacientesContext from "../context/PacienteProvider";
 import usePacientes from "../hooks/usePacientes";
-import Pacientes from "./pacientes";
+import Pacientes from "./Pacientes";
 
 function ListadoPacientes() {
   const { pacientes } = usePacientes();
